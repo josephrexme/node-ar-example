@@ -34,16 +34,11 @@ ready(function() {
   const spotlight = new THREE.SpotLight(0xffffff);
   hemlight.position.set(10, 10, 10);
   spotlight.position.set(10000, 10000, 10000);
-  spotlight.castShadow = true;
-  spotlight.shadow.bias = 0.0001;
-  spotlight.shadow.mapSize.width = 2048;
-  spotlight.shadow.mapSize.height = 2048;
   scene.add(hemlight);
   scene.add(spotlight);
 
   // Add camera
-  // const camera = new THREE.Camera();
-  const camera = new THREE.PerspectiveCamera(45, windowWidth/ windowHeight, 1, 1000);
+  const camera = new THREE.Camera();
   camera.position.z = 600;
 
   // Controls
