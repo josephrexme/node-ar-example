@@ -2,8 +2,7 @@ import * as THREE from 'three';
 import {
   ArToolkitSource,
   ArToolkitContext,
-  ArMarkerControls,
-  ArSmoothedControls
+  ArMarkerControls
 } from 'node-ar.js';
 import GLTFLoader from 'three-gltf-loader';
 import OrbitControls from 'three-orbit-controls';
