@@ -1,0 +1,24 @@
+{
+  "name": "webvr-planets",
+  "version": "1.0.0",
+  "description": "webvr template for IML",
+  "scripts": {
+    "postinstall": "npm i -g parcel-bundler",
+    "start": "parcel serve -d .serve index.html",
+    "build": "parcel build -d docs --public-url ./ src/script.js"
+  },
+  "keywords": [
+    "vr",
+    "iml",
+    "webvr",
+    "threejs"
+  ],
+  "author": "Joseph Rex <silverdust>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "node-ar.js": "^1.6.0",
+    "three": "^0.94.0",
+    "three-gltf-loader": "^1.95.0",
+    "three-orbit-controls": "^82.1.0"
+  }
+}

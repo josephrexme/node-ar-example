@@ -1,0 +1,4 @@
+.cache
+.serve
+.DS_Store
+node_modules
